@@ -8,7 +8,9 @@ The way to deal with unseen words is to use a pre-defined lexicon before we extr
 
 # Smoothing method 
 Using linear interpolation between the raw trigram, unigram, and bigram probabilities to smooth probabilities. 
-![alt text] (https://github.com/lt616/NLP_trigram_model/blob/master/interpolation.png) 
+
+![alt text](https://github.com/lt616/NLP_trigram_model/blob/master/interpolation.png) 
+
 In this project we set lambda1 == lambda2 == lambda3 == 1/3 
 
 # Performance benchmark 
